@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web sobre Ángulos de Cámara</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0000ff; /* Fondo azul */
+            color: #ffffff; /* Texto blanco */
+        }
+
+        header h1 {
+            color: #ffeb3b; /* Título en amarillo */
+            text-align: center; /* Alinear el texto al centro */
+            text-shadow: 2px 2px #000; /* Sombra del texto */
+        }
+
+        footer {
+            color: #ffffff; /* Texto del pie de página en blanco */
+            text-align: center; /* Alinear el texto al centro */
+            text-decoration: underline; /* Subrayar el texto */
+        }
+
+        .descripcion {
+            font-size: 18px; /* Tamaño de texto más grande */
+            text-align: justify; /* Justificar el texto */
+        }
+
+        #info-personal {
+            font-family: 'Times New Roman', Times, serif; /* Tipo de letra Times New Roman */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #444;
+        }
+
+        a {
+            color: #ffeb3b;
+            text-decoration: none; /* Quitar el subrayado */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Subrayar al pasar el cursor */
+        }
+
+        /* Pseudo-clase hover para tabla */
+        table tr:hover {
+            background-color: #555; /* Fondo de fila al pasar el cursor */
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-dark text-white text-center py-3">
+    <h1>Ángulos de Cámara</h1>
+</header>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <a class="navbar-brand" href="#">Menú</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#descripcion">Descripción</a></li>
+            <li class="nav-item"><a class="nav-link" href="#temas">Temas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tabla-angulos">Tabla</a></li>
+            <li class="nav-item"><a class="nav-link" href="#info-personal">Información Personal</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section id="descripcion" class="container mt-4">
+    <h2 class="text-center">Descripción del Sitio Web</h2>
+    <p class="descripcion">En este sitio web encontrarás información detallada sobre los diferentes ángulos de cámara utilizados en la cinematografía y la fotografía. Exploraremos cómo estos ángulos afectan la narrativa visual y la experiencia del espectador.</p>
+</section>
+
+<section id="temas" class="container mt-4">
+    <h2 class="text-center">Temas o Subtemas</h2>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="#angulo-normal">Ángulo Normal</a></li>
+        <li class="list-group-item"><a href="#angulo-picado">Ángulo Picado</a></li>
+        <li class="list-group-item"><a href="#angulo-contrapicado">Ángulo Contrapicado</a></li>
+        <li class="list-group-item"><a href="#angulo-cenital">Ángulo Cenital</a></li>
+        <li class="list-group-item"><a href="#angulo-nadir">Ángulo Nadir</a></li>
+        <li class="list-group-item"><a href="https://es.wikipedia.org/wiki/Ángulo_de_cámara" target="_blank">Más información (Wikipedia)</a></li>
+    </ul>
+</section>
+
+<section id="tabla-angulos" class="container mt-4">
+    <h2 class="text-center">Tabla de Ángulos de Cámara</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th>Ángulo</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="angulo-normal">
+                    <td>Ángulo Normal</td>
+                    <td>La cámara se sitúa a la altura de los ojos del personaje, ofreciendo una visión neutral.</td>
+                </tr>
+                <tr id="angulo-picado">
+                    <td>Ángulo Picado</td>
+                    <td>La cámara se coloca por encima del sujeto, inclinada hacia abajo, para disminuir su importancia.</td>
+                </tr>
+                <tr id="angulo-contrapicado">
+                    <td>Ángulo Contrapicado</td>
+                    <td>La cámara se coloca por debajo del sujeto, inclinada hacia arriba, para aumentar su importancia.</td>
+                </tr>
+                <tr id="angulo-cenital">
+                    <td>Ángulo Cenital</td>
+                    <td>La cámara se sitúa directamente sobre el sujeto, creando una vista de pájaro.</td>
+                </tr>
+                <tr id="angulo-nadir">
+                    <td>Ángulo Nadir</td>
+                    <td>La cámara se coloca directamente debajo del sujeto, mirando hacia arriba, creando una vista dramática.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section id="info-personal" class="container mt-4">
+    <h2 class="text-center">Información Personal</h2>
+    <p>Nombre: [Tu nombre]</p>
+    <p>Contacto: [Tu número de teléfono]</p>
+    <p>Correo: [Tu dirección de correo electrónico]</p>
+    <p>Institución: [Nombre de tu institución]</p>
+</section>
+
+<footer class="bg-dark text-white text-center py-3 mt-4">
+    <p>Derechos de Autor © 2024 - Todos los derechos reservados</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
